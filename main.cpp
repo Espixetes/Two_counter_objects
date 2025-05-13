@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 
     qDebug() << "After incrementing counter1:";
     counter1.Increment();
-    qDebug() << "Counter1:" << counter1.Increment() - 1; // Adjust for display after increment
+    qDebug() << "Counter1:" << counter1.Increment() - 1; 
     qDebug() << "Counter2:" << counter2.Increment() - 1;
 
 
